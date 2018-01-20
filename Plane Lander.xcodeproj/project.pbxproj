@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A06F5561FBB417B00AD7A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F5551FBB417B00AD7A81 /* AppDelegate.swift */; };
+		5A06F5581FBB417B00AD7A81 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A06F5571FBB417B00AD7A81 /* GameScene.sks */; };
+		5A06F55A1FBB417B00AD7A81 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A06F5591FBB417B00AD7A81 /* Actions.sks */; };
+		5A06F55C1FBB417B00AD7A81 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F55B1FBB417B00AD7A81 /* GameScene.swift */; };
+		5A06F55E1FBB417B00AD7A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F55D1FBB417B00AD7A81 /* ViewController.swift */; };
+		5A06F5601FBB417B00AD7A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A06F55F1FBB417B00AD7A81 /* Assets.xcassets */; };
+		5A06F5631FBB417B00AD7A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A06F5611FBB417B00AD7A81 /* Main.storyboard */; };
+		5A06F56E1FBB417B00AD7A81 /* Plane_LanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F56D1FBB417B00AD7A81 /* Plane_LanderTests.swift */; };
+		5A06F5791FBB417B00AD7A81 /* Plane_LanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F5781FBB417B00AD7A81 /* Plane_LanderUITests.swift */; };
+		5A06F5871FBB4BC300AD7A81 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F5861FBB4BC300AD7A81 /* Plane.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A06F56A1FBB417B00AD7A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A06F54A1FBB417B00AD7A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A06F5511FBB417B00AD7A81;
+			remoteInfo = "Plane Lander";
+		};
+		5A06F5751FBB417B00AD7A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A06F54A1FBB417B00AD7A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A06F5511FBB417B00AD7A81;
+			remoteInfo = "Plane Lander";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A06F5521FBB417B00AD7A81 /* Plane Lander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plane Lander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06F5551FBB417B00AD7A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A06F5571FBB417B00AD7A81 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5A06F5591FBB417B00AD7A81 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5A06F55B1FBB417B00AD7A81 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5A06F55D1FBB417B00AD7A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A06F55F1FBB417B00AD7A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A06F5621FBB417B00AD7A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A06F5641FBB417B00AD7A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A06F5691FBB417B00AD7A81 /* Plane LanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plane LanderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06F56D1FBB417B00AD7A81 /* Plane_LanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane_LanderTests.swift; sourceTree = "<group>"; };
+		5A06F56F1FBB417B00AD7A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A06F5741FBB417B00AD7A81 /* Plane LanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plane LanderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A06F5781FBB417B00AD7A81 /* Plane_LanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane_LanderUITests.swift; sourceTree = "<group>"; };
+		5A06F57A1FBB417B00AD7A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A06F5861FBB4BC300AD7A81 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A06F54F1FBB417B00AD7A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5661FBB417B00AD7A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5711FBB417B00AD7A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A06F5491FBB417B00AD7A81 = {
+			isa = PBXGroup;
+			children = (
+				5A06F5541FBB417B00AD7A81 /* Plane Lander */,
+				5A06F56C1FBB417B00AD7A81 /* Plane LanderTests */,
+				5A06F5771FBB417B00AD7A81 /* Plane LanderUITests */,
+				5A06F5531FBB417B00AD7A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A06F5531FBB417B00AD7A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A06F5521FBB417B00AD7A81 /* Plane Lander.app */,
+				5A06F5691FBB417B00AD7A81 /* Plane LanderTests.xctest */,
+				5A06F5741FBB417B00AD7A81 /* Plane LanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A06F5541FBB417B00AD7A81 /* Plane Lander */ = {
+			isa = PBXGroup;
+			children = (
+				5A06F5551FBB417B00AD7A81 /* AppDelegate.swift */,
+				5A06F5571FBB417B00AD7A81 /* GameScene.sks */,
+				5A06F5591FBB417B00AD7A81 /* Actions.sks */,
+				5A06F55B1FBB417B00AD7A81 /* GameScene.swift */,
+				5A06F5861FBB4BC300AD7A81 /* Plane.swift */,
+				5A06F55D1FBB417B00AD7A81 /* ViewController.swift */,
+				5A06F55F1FBB417B00AD7A81 /* Assets.xcassets */,
+				5A06F5611FBB417B00AD7A81 /* Main.storyboard */,
+				5A06F5641FBB417B00AD7A81 /* Info.plist */,
+			);
+			path = "Plane Lander";
+			sourceTree = "<group>";
+		};
+		5A06F56C1FBB417B00AD7A81 /* Plane LanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A06F56D1FBB417B00AD7A81 /* Plane_LanderTests.swift */,
+				5A06F56F1FBB417B00AD7A81 /* Info.plist */,
+			);
+			path = "Plane LanderTests";
+			sourceTree = "<group>";
+		};
+		5A06F5771FBB417B00AD7A81 /* Plane LanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A06F5781FBB417B00AD7A81 /* Plane_LanderUITests.swift */,
+				5A06F57A1FBB417B00AD7A81 /* Info.plist */,
+			);
+			path = "Plane LanderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A06F5511FBB417B00AD7A81 /* Plane Lander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A06F57D1FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane Lander" */;
+			buildPhases = (
+				5A06F54E1FBB417B00AD7A81 /* Sources */,
+				5A06F54F1FBB417B00AD7A81 /* Frameworks */,
+				5A06F5501FBB417B00AD7A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plane Lander";
+			productName = "Plane Lander";
+			productReference = 5A06F5521FBB417B00AD7A81 /* Plane Lander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A06F5681FBB417B00AD7A81 /* Plane LanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A06F5801FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane LanderTests" */;
+			buildPhases = (
+				5A06F5651FBB417B00AD7A81 /* Sources */,
+				5A06F5661FBB417B00AD7A81 /* Frameworks */,
+				5A06F5671FBB417B00AD7A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A06F56B1FBB417B00AD7A81 /* PBXTargetDependency */,
+			);
+			name = "Plane LanderTests";
+			productName = "Plane LanderTests";
+			productReference = 5A06F5691FBB417B00AD7A81 /* Plane LanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A06F5731FBB417B00AD7A81 /* Plane LanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A06F5831FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane LanderUITests" */;
+			buildPhases = (
+				5A06F5701FBB417B00AD7A81 /* Sources */,
+				5A06F5711FBB417B00AD7A81 /* Frameworks */,
+				5A06F5721FBB417B00AD7A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A06F5761FBB417B00AD7A81 /* PBXTargetDependency */,
+			);
+			name = "Plane LanderUITests";
+			productName = "Plane LanderUITests";
+			productReference = 5A06F5741FBB417B00AD7A81 /* Plane LanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A06F54A1FBB417B00AD7A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.preston.xc;
+				TargetAttributes = {
+					5A06F5511FBB417B00AD7A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2E9CJGV68X;
+						ProvisioningStyle = Automatic;
+					};
+					5A06F5681FBB417B00AD7A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2E9CJGV68X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A06F5511FBB417B00AD7A81;
+					};
+					5A06F5731FBB417B00AD7A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2E9CJGV68X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A06F5511FBB417B00AD7A81;
+					};
+				};
+			};
+			buildConfigurationList = 5A06F54D1FBB417B00AD7A81 /* Build configuration list for PBXProject "Plane Lander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A06F5491FBB417B00AD7A81;
+			productRefGroup = 5A06F5531FBB417B00AD7A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A06F5511FBB417B00AD7A81 /* Plane Lander */,
+				5A06F5681FBB417B00AD7A81 /* Plane LanderTests */,
+				5A06F5731FBB417B00AD7A81 /* Plane LanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A06F5501FBB417B00AD7A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A06F5581FBB417B00AD7A81 /* GameScene.sks in Resources */,
+				5A06F5601FBB417B00AD7A81 /* Assets.xcassets in Resources */,
+				5A06F55A1FBB417B00AD7A81 /* Actions.sks in Resources */,
+				5A06F5631FBB417B00AD7A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5671FBB417B00AD7A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5721FBB417B00AD7A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A06F54E1FBB417B00AD7A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A06F55E1FBB417B00AD7A81 /* ViewController.swift in Sources */,
+				5A06F55C1FBB417B00AD7A81 /* GameScene.swift in Sources */,
+				5A06F5871FBB4BC300AD7A81 /* Plane.swift in Sources */,
+				5A06F5561FBB417B00AD7A81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5651FBB417B00AD7A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A06F56E1FBB417B00AD7A81 /* Plane_LanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A06F5701FBB417B00AD7A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A06F5791FBB417B00AD7A81 /* Plane_LanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A06F56B1FBB417B00AD7A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A06F5511FBB417B00AD7A81 /* Plane Lander */;
+			targetProxy = 5A06F56A1FBB417B00AD7A81 /* PBXContainerItemProxy */;
+		};
+		5A06F5761FBB417B00AD7A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A06F5511FBB417B00AD7A81 /* Plane Lander */;
+			targetProxy = 5A06F5751FBB417B00AD7A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A06F5611FBB417B00AD7A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A06F5621FBB417B00AD7A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A06F57B1FBB417B00AD7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A06F57C1FBB417B00AD7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5A06F57E1FBB417B00AD7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane Lander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-Lander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A06F57F1FBB417B00AD7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane Lander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-Lander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5A06F5811FBB417B00AD7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane LanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-LanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plane Lander.app/Contents/MacOS/Plane Lander";
+			};
+			name = Debug;
+		};
+		5A06F5821FBB417B00AD7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane LanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-LanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plane Lander.app/Contents/MacOS/Plane Lander";
+			};
+			name = Release;
+		};
+		5A06F5841FBB417B00AD7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane LanderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-LanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Plane Lander";
+			};
+			name = Debug;
+		};
+		5A06F5851FBB417B00AD7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2E9CJGV68X;
+				INFOPLIST_FILE = "Plane LanderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Preston.Plane-LanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Plane Lander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A06F54D1FBB417B00AD7A81 /* Build configuration list for PBXProject "Plane Lander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06F57B1FBB417B00AD7A81 /* Debug */,
+				5A06F57C1FBB417B00AD7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A06F57D1FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane Lander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06F57E1FBB417B00AD7A81 /* Debug */,
+				5A06F57F1FBB417B00AD7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A06F5801FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane LanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06F5811FBB417B00AD7A81 /* Debug */,
+				5A06F5821FBB417B00AD7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A06F5831FBB417B00AD7A81 /* Build configuration list for PBXNativeTarget "Plane LanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A06F5841FBB417B00AD7A81 /* Debug */,
+				5A06F5851FBB417B00AD7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A06F54A1FBB417B00AD7A81 /* Project object */;
+}
